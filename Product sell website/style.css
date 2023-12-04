@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #edecf3;
+}
+
+header {
+	background: #333;
+	color: #00ffab;
+	padding: 1rem;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 1rem;
+}
+
+nav ul li a {
+	color: #ba1717;
+	text-decoration: none;
+}
+
+#showcase {
+	background: url("myimg.jpg") no-repeat center center/cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#showcase h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+
+#showcase p {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.btn {
+	display: inline-block;
+	background: #333;
+	color: #199c0a;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	margin-top: 1rem;
+	text-decoration: none;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+#boxes {
+  color: rgb(109, 6, 6);
+	display: flex;
+	flex-wrap: wrap;
+	justify-items: center;
+  
+}
+.hd{
+  color: black;
+
+}
+.hd:hover{
+  color: blue;
+}
+.box:hover{
+ transform: matrix(2px);
+}
